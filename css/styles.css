@@ -1,0 +1,1012 @@
+/*----This is for the CSS that is going to be applied across all the pages.----*/
+/*----This has been put into a seperate page to help with my CSS structure.----*/
+
+/*----This is for the html site to be 100%----*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+/*----This is for the html site to be 100%----*/
+
+
+/*----This is for under ordered list to have no indenting----*/
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+/*----This is for under ordered list to have no indenting----*/
+
+li{
+	line-height: 1.5;
+}
+
+/*----This is for the body styling to effect the whole page----*/
+body{
+	padding: 0;
+	margin: 0;
+	height:100%;
+	font-family: helvetica;
+}
+/*----This is for the body styling to effect the whole page----*/
+
+
+/*----This is for the css to effect all paragraphs on the page to be 16px font----*/
+p{
+	font-size: 16px;
+	line-height: 1.5;
+}
+/*----This is for the css to effect all paragraphs on the page to be 16px font----*/
+
+
+/*----This is for the class "Wrapper" to effect the content of the website----*/
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 2.5em;
+	min-height: 100%;
+}
+/*----This is for the class "Wrapper" to effect the content of the website----*/
+
+
+/*----This is for the grid structure collumns. This will effect all the collumns.----*/
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12{
+	margin: 20px 10px 20px 10px;
+	float: left;
+}
+/*----This is for the grid structure collumns. This will effect all the collumns.----*/
+
+
+/*----This is for the first collumns.----*/
+.col_1 {
+	width: 6.23%;
+}
+/*----This is for the first collumn.----*/
+
+
+/*----This is for the second collumn.----*/
+.col_2 {
+	width: 14.583333%;
+}
+/*----This is for the second collumn.----*/
+
+
+/*----This is for the third collumn.----*/
+.col_3 {
+	width: 22.83333%;
+}
+/*----This is for the third collumn.----*/
+
+
+/*----This is for the forth collumn.----*/
+.col_4 {
+	width: 31.2223%;
+}
+/*----This is for the forth collumn.----*/
+
+
+/*----This is for the fifth collumn.----*/
+.col_5 {
+	width: 39.555553%;
+}
+/*----This is for the fifth collumn.----*/
+
+
+/*----This is for the sixth collumn.----*/
+.col_6 {
+	width: 47.883%;
+}
+/*----This is for the sixth collumn.----*/
+
+
+/*----This is for the seventh collumn.----*/
+.col_7 {
+	width: 56.222%;
+}
+/*----This is for the seventh collumn.----*/
+
+
+/*----This is for the eighth collumn.----*/
+.col_8 {
+	width: 64.5%;
+}
+/*----This is for the eighth collumn.----*/
+
+
+/*----This is for the nineth collumn.----*/
+.col_9 {
+	width: 73%;
+}
+/*----This is for the nineth collumn.----*/
+
+
+/*----This is for the tenth collumn.----*/
+.col_10 {
+	width: 81.22223%;
+}
+/*----This is for the tenth collumn.----*/
+
+
+/*----This is for the eleventh collumn.----*/
+.col_11 {
+	width: 89.6%;
+}
+/*----This is for the eleventh collumn.----*/
+
+
+/*----This is for the twelth collumn.----*/
+.col_12{
+	width:940px;
+}
+/*----This is for the twelth collumn.----*/
+
+
+/*----This is for the grid structure collumns----*/
+
+/*----This is for styling the h3 elements class in my website.----*/
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
+/*----This is for styling the h3 elements class in my website.----*/
+
+
+/*----This is for styling the h4 elements class in my website.----*/
+h4 {
+	font-size: 20px;
+	text-align: center;
+}
+/*----This is for styling the h4 elements class in my website.----*/
+
+
+/*----This is for styling the header.----*/
+header {
+	height: 5.5em;
+	background-color: #182d4c;
+	width: 100%;
+	padding-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	z-index: 100;
+}
+/*----This is for styling the header.----*/
+
+
+/*----This is for the nav bar.----*/
+.nav {
+	font-size: 1.1em;
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+/*----This is for the nav bar.----*/
+
+
+/*----This is for the "Fly to the Limit" text to be stylised and to the left.----*/
+#home {
+	font-size: 30px;
+	top: 0px;
+	margin: 0px;
+	padding-top: 12px;
+}
+/*----This is for the "Fly to the Limit" text to be stylised and to the left.----*/
+
+
+
+/*----This is for the nav bar h1 (the left sided "Fly to the Limit").----*/
+nav h1{
+	display: inline;
+}
+/*----This is for the nav bar h1 (the left sided "Fly to the Limit").----*/
+
+
+/*----This is for the nav bar h1 anchortags and the hover transitions and colors (the left sided "Fly to the Limit").----*/
+.nav h1 a, a:link, a:visited{
+	color: #fdfdfd;
+	display: inline;
+	padding-right: 10px;
+	text-decoration: none;
+	transition: all 0.2s ease 0s;
+}
+
+.nav h1 a:hover, a:focus, a:active{
+	color:#f35829;
+	transition: all 0.2s ease 0s;
+}
+/*----This is for the nav bar h1 anchortags and the hover transitions and colors (the left sided "Fly to the Limit").----*/
+
+
+/*----This is for the nav li list of options (e.g About, Contact etc)----*/
+.nav li{
+	display: inline;
+	text-decoration: none;
+}
+/*----This is for the nav li list of options (e.g About, Contact etc)----*/
+
+
+/*----This is for the nav li list of options (e.g About, Contact etc) and this is to style the anchortag links to hover between orange and white----*/
+.nav li a, a:link, a:visited{
+	color: #fdfdfd;
+	display: inline;
+	padding-right: 10px;
+	text-decoration: none;
+	transition: all 0.2s ease 0s;
+}
+
+.nav li a:hover, a:focus, a:active{
+	color:#f35829;
+	transition: all 0.2s ease 0s;
+}
+
+.right_nav {
+	float: right;
+	padding-top: 16px;
+	margin: 0;
+}
+/*----This is for the nav li list of options (e.g About, Contact etc) and this is to style the anchortag links to hover between orange and white----*/
+
+
+/*----This is to style the parallax section on the home page. The class "Header-text" is----*/
+/*----to set up the sizing to be 940px wide and 20px padding on top. The h1 element in the----*/
+/*----header-text class is styled here with the ".header-text h1" class.----*/
+.header_text{
+	width:940px;
+	padding-top: 20px;
+}
+
+.header_text h1{
+	color: #d0d0d0;
+	text-align: center;
+	font-size: 50px;
+}
+/*----This is to style the parallax section on the home page. The class "Header-text" is----*/
+/*----to set up the sizing to be 940px wide and 20px padding on top. The h1 element in the----*/
+/*----header-text class is styled here with the ".header-text h1" class.----*/
+
+
+/*----This is to style the parallax section on the home page. The class "Header-text" is----*/
+/*----to set up the sizing to be 940px wide and 20px padding on top. The h1 element in the----*/
+.slogan{
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	color: #d0d0d0;
+}
+
+#parallax_img {
+	background: url('../img/homepagebanner1.jpg') 0 no-repeat fixed;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 3.6em;
+	background-size: cover;
+}
+
+#home_content {
+	overflow: hidden; /*This makes the slide3 go overtop slide 2*/
+}
+
+
+/*----This is to style the conditions section that gives a short description on----*/
+/*----what would happen should the weather stop a flight. This CSS styling is used----*/
+/*----on the Booking page next to the contact forum. The class "blue-bold-label" is used----*/
+/*----to make the "NOTE" text bold and blue. The "book-note-msg" class is to make the text----*/
+/*----smaller----*/
+.blue_bold_label{
+	font-weight: bold;
+	color: #30428F;
+	font-size: 19px;
+}
+
+.book_note_msg{
+	font-size: 14px;
+}
+/*----This is to style the conditions section that gives a short description on----*/
+/*----what would happen should the weather stop a flight. This CSS styling is used----*/
+/*----on the Booking page next to the contact forum----*/
+
+
+/*----This is to style the prices page on the website. The "prices-header" class----*/
+/*----is to make the heading size for the names of the different tours (e.g. Standard Flights)----*/
+/*----The "prices-cost" class is to style the cost for each tour. This is made bigger to be become----*/
+/*----more bigger and obvious amongst the different information on the page. ----*/
+.prices_header{
+	font-weight: normal;
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	line-height: 120%;
+	padding-left: 32px;
+}
+
+.prices_cost{
+	font-weight: normal;
+	font-size: 19px;
+	color: white;
+	text-align: left;
+	line-height: 120%;
+	background-color: #30428F;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+/*----This is to style the prices page on the website. The "prices-header" class----*/
+/*----is to make the heading size for the names of the different tours (e.g. Standard Flights)----*/
+/*----The "prices-cost" class is to style the cost for each tour. This is made bigger to be become----*/
+/*----more bigger and obvious amongst the different information on the page. ----*/
+
+
+/*----This is to style the prices page on the website. The "dark-blue-bg" class----*/
+/*----gives the background for all prices sections dark blue----*/
+.dark_blue_bg {
+	width: 22.8333%;
+	background-color: #182D4C;
+	height: 680px;
+}
+/*----This is to style the prices page on the website. The "dark-blue-bg" class----*/
+/*----gives the background for all prices sections dark blue----*/
+
+
+/*----This is to style the prices information on the website. The "prices-info" class is----*/
+/*----what will stylize the information to be inline with the header of the price section----*/
+/*----such as the Standard Flights, Fixed Wing Flights Tour etc----*/
+.prices_info {
+	background-color: #30428F;
+	padding: 10px 10px 25px 30px;
+	color: #FDFDFD;
+	line-height: 1.6;
+	margin-bottom: 0px;
+	height: 435px;
+	list-style-type: none;
+}
+/*----This is to style the prices information on the website. The "prices-info" class is----*/
+/*----what will stylize the information to be inline with the header of the price section----*/
+/*----such as the Standard Flights, Fixed Wing Flights Tour etc----*/
+
+/*----This is to stylize the pale grey background in the image----*/
+.pale_bg {
+	background-color: #F2F0F0;
+	color: #333;
+	/* padding-top: 60px; */
+	padding-bottom: 60px;
+	margin-top: 25px;
+	bottom: 0;
+}
+/*----This is to stylize the pale grey background in the image----*/
+
+
+/*----This is to make elements float to the left on the website.----*/
+.left_float{
+	float: left;
+}
+/*----This is to make elements float to the left on the website.----*/
+
+
+/*----This is to make elements float to the right on the website.----*/
+.right_float{
+	float: right;
+}
+/*----This is to make elements float to the right on the website.----*/
+
+
+/*----This is to stylize the blue background on the website.----*/
+.blue_bg {
+	background-color: #30428F;
+	color: #333;
+	bottom: 0px;
+	height: 450px;
+}
+/*----This is to stylize the blue background on the website.----*/
+
+
+/*----This is to stylize the descriptions of the pilots to be padded left and----*/
+/*----right by 15px to stop any text being too close to each other in the collumns.----*/
+.about_info{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*----This is to stylize the descriptions of the pilots to be padded left and----*/
+/*----right by 15px to stop any text being too close to each other in the collumns.----*/
+
+
+/*----This is to keep the tours information together in one class. This will avoid----*/
+/*----the information from being seperated.----*/
+.container_tours{
+	width: 960px;
+	margin: 0 auto;
+}
+/*----This is to keep the tours information together in one class. This will avoid----*/
+/*----the information from being seperated.----*/
+
+/*----The tour pic class is applied to the images on the tour page----*/
+/*----This class will apply the transition effect and set a background color to the class---*/
+/*----and add fixed height, width and margin on top---*/
+.tour_pic {
+	transition: all .2s linear;
+	top: 0;
+	width: 206px;
+	height: 206px;
+	padding-top: 0px;
+	margin-top: 44px;
+	background-color: #F35829;
+
+}
+/*----The tour pic class is applied to the images on the tour page----*/
+/*----This class will apply the transition effect and set a background color to the class---*/
+/*----and add fixed height, width and margin on top---*/
+
+
+/*----The background orange class is applied here to add a background---*/
+/*----to the gallery pictures.---*/
+.background_orange {
+	background-color: #F35829;
+	height: 225px;
+}
+/*----The background orange class is applied here to add a background---*/
+/*----to the tour pic class---*/
+
+
+/*----The tour pic a:hover; class is applied to the images on the tour page----*/
+/*----The class will reduce the opacity when hovered.----*/
+.tour_pic a:hover{
+	transition: all .2s linear;
+	opacity:  0.5;
+}
+/*----The tour pic a:hover; class is applied to the images on the tour page----*/
+/*----The class will reduce the opacity when hovered.----*/
+
+
+
+/*----This is the clearfix class to stop any overlapping.----*/
+.cf:after, .cf:before{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*----This is the clearfix class to stop any overlapping.----*/
+
+
+/*----This is make each image added in the center of the class it has been added in.----*/
+.img{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/*----This is make each image added in the center of the class it has been added in.----*/
+
+
+/*----In the home page, there are 3 images that link to different tours. These classes are----*/
+/*----to stylize the images to shrink in. The "border-in" class will make the image set to a fixed----*/
+/*----width of 300px in height and width.----*/
+.border_in {
+	width: 300px;
+	height: 300px;	
+}
+/*----In the home page, there are 3 images that link to different tours. These classes are----*/
+/*----to stylize the images to shrink in. The "border-in" class will make the image set to a fixed----*/
+/*----width of 300px in height and width.----*/
+
+
+/*----The "border-in img" will set the transition to .2 of a sec.----*/
+/*----This class will also clear the top and left sides to be 0.----*/
+.border_in img {
+	transition: all .2s linear;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*----The "border-in img" will set the transition to .2 of a sec.----*/
+/*----This class will also clear the top and left sides to be 0.----*/
+
+
+/*----The "border-in a" will set the transition to .2 of a sec.----*/
+/*----This will also set the anchortag to be transparent.----*/
+/*----The height, position and display tags have been used to make the text in the center.----*/
+.border_in a {
+	transition: all .2s linear;
+	display: block;
+	position: relative;
+	height: 100%;
+	color: transparent;
+}
+/*----The "border-in a" will set the transition to .2 of a sec.----*/
+/*----This will also set the anchortag to be transparent.----*/
+/*----The height, position and display tags have been used to make the text in the center.----*/
+
+
+/*----The "border-in img" will set the transition to .2 of a sec when hovered over.----*/
+/*----This will also set the image to be close to transparent so the text is more visible.----*/
+/*----The border radius will be shrunk in when hovered over.----*/
+.border_in img:hover{
+	transition: all .2s linear;
+	background: #f35829;
+	border-radius: 180px;
+	opacity: 0.2;
+}
+/*----The "border-in img" will set the transition to .2 of a sec when hovered over.----*/
+/*----This will also set the image to be close to transparent so the text is more visible.----*/
+/*----The border radius will be shrunk in when hovered over.----*/
+
+
+/*----The "border-in a:hover" will have this style applied to it when hovered over----*/
+.border_in a:hover {
+	color: #f35829;
+}
+/*----The "border-in a:hover" will have this style applied to it when hovered over----*/
+
+
+/*----The "border-in a span" is used to apply this CSS to the span tag in the border-in class----*/
+.border_in a span {
+	position: absolute;
+	display: block;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 45%;
+	text-align: center;
+	font-size: 2em;
+	margin-left: 100px;
+	margin-right: 100px;
+	pointer-events: none;
+}
+/*----The "border-in a span" is used to apply this CSS to the span tag in the border-in class----*/
+
+
+/*----The white id is applied to any text that needs to be white (e.g Some popular tours)----*/
+#white {
+	color: #fdfdfd;
+}
+/*----The white id is applied to any text that needs to be white (e.g Some popular tours)----*/
+
+
+/*----Any additional padding to the top is applied here through this class----*/
+.pad_top{
+	padding-top: 40px;
+}
+/*----Any additional padding to the top is applied here through this class----*/
+
+
+/*----Any additional padding to the bottom is applied here through this class----*/
+.pad_bottom{
+	padding-bottom: 35px;
+}
+/*----Any additional padding to the bottom is applied here through this class----*/
+
+
+/*----Any additional padding to the left is applied here through this class----*/
+.pad_left{
+	padding-left: 50px;
+}
+/*----Any additional padding to the left is applied here through this class----*/
+
+
+/*----This class is applied to certian classes to make them align to the left.----*/
+.left_margin{
+	margin-left: 0;
+}
+/*----This class is applied to certian classes to make them align to the left.----*/
+
+
+/*----The following classes are for the book now button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+.book_now_button, .book_now_button:link, .book_now_button:visited {
+	transition: all 0.2s ease 0s;
+	border: solid 3px #f35829;
+	padding: 8px 20px 8px 20px;
+	border-radius: 10px;
+	background-color: transparent;
+	color: #f35829;
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top: 10px;
+}
+/*----The following classes are for the book now button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+
+
+/*----The following classes are for the book now button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+.book_now_button:hover, .book_now_button:focus, .book_now_button:active {
+	transition: all 0.2s ease 0s;
+	border: #F2F0F0 solid 3px;
+	color: #F2F0F0;
+	cursor:pointer;
+}
+/*----The following classes are for the book now button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+
+
+/*----The following classes are for the back to top button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+.back_to_top_button, .back_to_top_button:link, .back_to_top_button:visited {
+	transition: all 0.2s ease 0s;
+	border: 3px solid #d54012;
+	padding: 15px 22px;
+	border-radius: 10px;
+	background-color: transparent;
+	color: #d54012;
+	font-size: 15px;
+	float: right;
+	margin-top: 10px;
+}
+/*----The following classes are for the back to top button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+
+
+/*----The following classes are for the back to top button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+.back_to_top_button:hover, .back_to_top_button:focus, .back_to_top-button:active {
+	transition: all 0.2s ease 0s;
+	border: solid 3px #F2F0F0;
+	cursor:pointer;
+	color: #F2F0F0;
+}
+/*----The following classes are for the back to top button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+
+
+/*----The following classes are for the read more button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+.read_more_button, .read_more_button:link, .read_more_button:visited {
+	transition: all 0.2s ease 0s;
+	border: transparent;
+	padding: 15px 22px;
+	border-radius: 10px;
+	background-color: #f35829;
+	color: #FDFDFD;
+	font-size: 15px;
+	float: right;
+}
+/*----The following classes are for the read more button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+
+
+/*----The following classes are for the read more button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+.read_more_button:hover, .read_more_button:focus, .read_more_button:active {
+	color: #e9e6e6;
+	background-color: #ec3b06;
+	cursor:pointer;
+	float: right;
+}
+/*----The following classes are for the read more button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+
+
+/*----The following classes are for the submit button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+.submit_button, .submit_button:link, .submit_button:visited{
+	transition: all 0.2s ease 0s;
+	border: transparent;
+	padding: 18px 30px;
+	border-radius: 10px;
+	background-color: #f35829;
+	color: #FDFDFD;
+	font-size: 18px;
+	margin-top: 20px;
+}
+/*----The following classes are for the submit button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+
+
+/*----The following classes are for the submit button that is visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+.submit_button:hover, .submit_button:focus, .submit_button:active {
+	color: #e9e6e6;
+	background-color: #ec3b06;
+	cursor:pointer;
+}
+/*----The following classes are for the submit button that are visible on multiple pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+
+
+/*----The following classes are for the booking button that is visible on the price pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+.book_button_pricepage, .book_button_pricepage:link, .book_button_pricepage:visited {
+  transition: all 0.2s ease 0s;
+  border: medium none transparent;
+  padding: 16px 22px;
+  border-radius: 10px;
+  background-color: #F35829;
+  color: #FDFDFD;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 27px;
+  width: 72px;
+}
+/*----The following classes are for the booking button that is visible on the price page.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+
+
+/*----The following classes are for the booking button that is visible on the price page.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+.book_button_pricepage:hover, .book_button_pricepage:focus, .book_button_pricepage:active {
+	color: #e9e6e6;
+	background-color: #ec3b06;
+	cursor:pointer;
+}
+/*----The following classes are for the booking button that is visible on the price pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+
+
+/*----The following classes are for the booking button that is visible on the tour pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+.book_button_tour_pages, .book_button_tour_pages:link, .book_button_tour_pages:visited {
+	transition: all 0.2s ease 0s;
+	border: transparent;
+	padding: 15px 20px 15px 20px;
+	border-radius: 10px;
+	background-color: #f35829;
+	color: #FDFDFD;
+	font-size: 16px;
+	margin-top: 48px;
+	float: right;
+}
+/*----The following classes are for the booking button that is visible on the tour pages.----*/
+/*----The following classes effect the links in the div and what the button will look like if visited----*/
+
+
+/*----The following classes are for the booking button that is visible on the tour pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+.book_button_tour_pages:hover, .book_button_tour_pages:focus, .book_button_tour_pages:active {
+	color: #e9e6e6;
+	background-color: #ec3b06;
+	cursor:pointer;
+}
+/*----The following classes are for the booking button that is visible on the tour pages.----*/
+/*----The following classes effect the links in the div when hovered on, focused on and are active in use----*/
+
+
+/*----The tour price class is applied to the price of the tour on the prices page.----*/
+.tour_price {
+	font-size: 19px;
+	color: #182D4C;
+}
+/*----The tour price class is applied to the price of the tour on the prices page.----*/
+
+
+/*----The form-group class is applied to the forms on the different pages.----*/
+/*----that require a form. It will keep them aligned together----*/
+.form_group {
+	margin: 1em 0;
+	position: relative;
+}
+/*----The form-group class is applied to the forms on the different pages.----*/
+/*----that require a form. It will keep them aligned together----*/
+
+
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will edit the labels themselves.----*/
+.form_group label {
+	display: block;
+	padding-bottom: 10px;
+}
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will edit the labels themselves.----*/
+
+
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will edit the labels that are not radio, checkbox, submit, reset or button .----*/
+.form_group input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]) {
+	font-size: 16px;
+	padding: .5em;
+}
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will edit the labels that are not radio, checkbox, submit, reset or button .----*/
+
+
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will resize the font size for the textarea in the formgroup.----*/
+.form_group textarea {
+	font-size: 1.2em;
+}
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will resize the font size for the textarea in the formgroup.----*/
+
+
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will edit the formgroup except for radio inputs, checkboxes and buttons .----*/
+.form_group input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]), .form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid #182d4c;
+	border-radius: 12px;
+}
+/*----The form-group label class is applied to the forms on the different pages.----*/
+/*----that require a form. It will edit the formgroup except for radio inputs, checkboxes and buttons .----*/
+
+
+/*----The form-group label class is applied to the forms on the different pages.----*/
+select {
+	width: 99%;
+	height: 27px;
+	outline: none;
+	cursor: pointer;
+	height: 35px;
+	font-size: 14px;
+	border-color: #30428F;
+}
+/*----The form-group label class is applied to the forms on the different pages.----*/
+
+
+/*----This will take away the textareas ability to resize----*/
+textarea {
+	resize: none;
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 10px;
+	font-family: "helvetica";
+}
+/*----This will take away the textareas ability to resize----*/
+
+
+/*----The danger class will be used when there is an error in the form validation----*/
+.danger {
+	padding-top: 10px;
+	color: red;
+}
+/*----The danger class will be used when there is an error in the form validation----*/
+
+
+/*----The contact details class is used to add padding to the form labels----*/
+.contact_details {
+	padding: 0px 10px 0px 10px;
+}
+/*----The contact details class is used to add padding to the form labels----*/
+
+
+/*----The tour header class is used to give the tour headers on the tour page decoration----*/
+.tour_header{
+	color: black;
+}
+/*----The tour header class is used to give the tour headers on the tour page decoration----*/
+
+
+/*----The tour header a class is used to give the tour headers on the tour page decoration----*/
+.tour_header a{
+	color: black;
+}
+/*----The tour header a class is used to give the tour headers on the tour page decoration----*/
+
+
+/*----The tour header a:hover class is used to give the tour headers on the tour page decoration when hovered----*/
+.tour_header a:hover{
+	color: #f35829;
+}
+/*----The tour header a:hover class is used to give the tour headers on the tour page decoration when hovered----*/
+
+
+/*----NOTE: The following code is taken from: http://bevacqua.github.io/rome/----*/
+/*----The input class is applied here to input fields----*/
+.input {
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+/*----The input styles are applied here to input fields----*/
+
+
+/*----The image-source-link class is used to give the text color to the lightbox gallery----*/
+.image_source_link {
+	color: #98C3D1;
+}
+/*----The image-source-link class is used to give the text color to the lightbox gallery----*/
+
+
+/*----The following classes will effect the lightbox gallery and set the animation and opacitity to the images----*/
+/*----images----*/
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+/*----The following classes will effect the lightbox gallery and set the animation and opacitity to the images----*/
+/*----images----*/
+
+
+/*----The following classes will edit the opacity for the images zoom in and out features----*/
+.mfp-with-zoom.mfp-ready .mfp-container {
+	opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+/*----The following classes will edit the opacity for the images zoom in and out features----*/
+
+
+/*----The gallery hover class is applied to begin the effect needed for the ----*/
+/*----class to fade so it has an orange background ----*/
+.gallery-hover{
+	transition: all .2s linear;
+	background-color: #F35829;
+}
+/*----The gallery hover class is applied to begin the effect needed for the ----*/
+/*----class to fade so it has an orange background ----*/
+
+
+/*----The gallery a:hover and img:visited classes will be applied----*/
+/*----to make the image opacity fade away when the image is hovered----*/
+.gallery-hover a:hover, .gallery-hover img:visited {
+	transition: all .2s linear;
+	opacity: 0.5;
+}
+/*----The gallery a:hover and img:visited classes will be applied----*/
+/*----to make the image opacity fade away when the image is hovered----*/
+
+
+.site_map_link a{
+	color: #f35829;
+	transition: all .1s linear;
+
+}
+/*----The tour header a class is used to give the tour headers on the tour page decoration----*/
+
+
+/*----The tour header a:hover class is used to give the tour headers on the tour page decoration when hovered----*/
+.site_map_link a:hover{
+	transition: all .1s linear;
+	color: black;
+	text-decoration: underline;
+}
+
+
+/*----The footer css style is applied here to give height, background color and more----*/
+footer {
+	height: 215px;
+	clear: both;
+	background-color: #182D4C;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+/*----The footer css style is applied here to give height, background color and more----*/
+
+
+/*----The copyright id is applied to effect the copyright text in the bottom right in the footer----*/
+#copyright {
+  color: #fdfdfd;
+  padding-top: 15px;
+  line-height: 1.4;
+  font-size: 14.5px;
+}
+/*----The copyright id is applied to effect the copyright text in the bottom right in the footer----*/
+
+
+/*----The following CSS produces the print style sheet----*/
+@media print {
+
+	header{
+		display: none;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	body {
+		font: 16pt "Helvetica", Arial, Times, serif;
+		line-height: 1.5;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+}
+/*----The following CSS produces the print style sheet----*/
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+	<title>Fly to the Limit - Book with Fly to the Limit</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/rome.css">
+	<link rel="icon" type="image/png" href="../img/favicon.ico">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Fly to the Limit Booking Page">
+	<meta name="keywords" content="Fly to the Limit, Fly to the Limit booking page, Queenstown, New Zealand, flights">
+	<meta name="author" content="Michael Szeto">
+
+</head>
+<body>
+
+	<header>
+		<div class="nav">
+			<div class="col_4">
+				<h1 id="home"><a href="../index.html"><b>Fly to the Limit</b></a></h1>
+			</div>
+
+			<div class="col_8">
+				<ul class="right_nav">				
+					<li><a href="../html/tours.html">Tours</a></li>
+					<li><a href="../html/gallery.html">Gallery</a></li> 
+					<li><a href="../html/booking.html">Book a flight</a></li> 
+					<li><a href="../html/prices.html">Pricing</a></li>  
+					<li><a href="../html/about.html">About</a></li>
+					<li><a href="../html/contact.html">Contact</a></li>
+				</ul>
+
+			</div>  
+		</div>
+	</header>
+	<div class="top"> 
+	</div>
+	<div class="wrapper cf">
+
+		<div class="col_12">
+
+			<h3 class="pad_top pad_bottom">Booking a flight with us</h3>
+
+			<p>When booking a flight with us, we provide the option to book at the very least two weeks in advance. This is to ensure that we are able to slot you in accordingly with a schedule that works for you and us. We can take up to 7 people total for an up in the air tour and are always cautious of the different ages that come into our tours. Fill in the form below to book a tour:</p>
+
+			<div class="col_6 left_margin cf pad_top pad_bottom">
+
+				<form method="POST" id="contact-form" novalidate>
+
+				<div class="form_group">
+					<label for="firstname">First Name</label>
+					<input id="firstname" name="firstname" type="text" required class="fv-minlength-2 hello">
+					<div id="firstname-error" class="danger"></div>
+				</div>
+
+				<div class="form_group pad_top">
+					<label for="lastname">Last Name</label>
+					<input id="lastname" name="lastname" type="text" required class="fv-minlength-2 hello">
+					<div id="lastname-error" class="danger"></div>
+				</div>
+
+				<div class="form_group pad_top">
+					<label for="email">Email Address</label>
+					<input id="email" name="email" type="email" required>
+					<div id="email-error" class="danger"></div>
+				</div>
+
+				<div class="form_group pad_top">
+					<label for="date">Date to Commence</label>
+					<input id="date" name="date" type="text" required>
+					<div id="date-error" class="danger"></div>
+				</div>
+
+				<div class="form_group pad_top">
+					<label for="tour">Tour Desired</label>
+					<select id="tour" name="tour" required>
+						<option value="">Select a Tour</option>
+						<option value="glider-tour">Glider Tour</option>
+						<option value="fixed-tour">Fixed Wing Tour</option>
+						<option value="helicoptor-tour">Helicoptor</option>
+						<option value="lake-tour">Lake Tour</option>
+						<option value="sunset-tour">Sunset Tour</option>
+					</select> 
+					<div id="tour-error" class="danger"></div>
+				</div>
+
+				<div class="form_group pad_top">
+					<label for="tour">Time for tour to Commence</label>
+					<select id="select" name="select" required>
+						<option value="">Select a Time</option>
+						<option value="glider-tour">10:00am</option>
+						<option value="fixed-tour">10:30am</option>
+						<option value="fixed-tour">11:00am</option>
+						<option value="fixed-tour">11:30am</option>
+						<option value="helicoptor-tour">12:00pm</option>
+						<option value="lake-tour">12:30pm</option>
+						<option value="lake-tour">1:00pm</option>
+						<option value="lake-tour">1:30pm</option>
+						<option value="lake-tour">2:00pm</option>
+						<option value="lake-tour">2:30pm</option>
+						<option value="lake-tour">3:00pm</option>
+						<option value="lake-tour">3:30pm</option>
+						<option value="lake-tour">4:00pm</option>
+					</select> 
+					<div id="select-error" class="danger"></div>
+				</div>
+
+				<div class="form_group pad_top">
+					<label for="people">Number of People Attending</label>
+
+					<select class="select-label" id="people" name="people" required>
+						<option value="">Select number of people</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+					</select> 
+					<div id="people-error" class="danger"></div>
+				</div>
+				<div class="form_group pad_top">
+					<button class="submit_button" type="submit">Send</button>
+				</div>
+			</form>
+
+		</div>
+
+		<div class="col_6 cf">
+			<p class="pad_left pad_top">
+				<span class="blue_bold_label">Note:</span> <span class="book_note_msg">In the case of wet weather and unsuitable flight conditions, we alert you at the very least in the morning day of your flight. We offer a 70% refund on your payment and will be forwarded to the account you used to pay for our flight experiences in your booking process.</span>
+			</p>
+		</div>
+
+	</div>
+	</div>
+
+		<footer>
+			<div id="container">
+				<div class="wrapper">
+					<div id="copyright" class="col_6">&copy; Copyright 2015. All rights reserved<br> to Fly to the Limit inc.
+					</div>
+					<div class="col_6"> 				
+					<div class="back_to_top_button">Back to top</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!-- <script src="../javascript/example.js"></script> -->
+	<script src="../javascript/rome.js"></script>
+	<script src="../javascript/form-validation-kit.js"></script>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+
+		var contactForm = document.querySelector("#contact-form");
+
+		addFormValidation(contactForm);
+
+		rome(document.querySelector('#date'), { 
+			time: false 
+		}).on('data', function (value) {
+			validateField(this.associated);
+		});
+
+	});
+	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="../javascript/back-to-top.js"></script>		
+</body>
+</html>

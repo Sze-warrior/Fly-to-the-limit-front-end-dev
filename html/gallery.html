@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+	<title>Fly to the Limit - Photo Gallery</title>
+	
+	<meta charset="UTF-8">
+	<meta name="description" content="Fly to the Limit Gallery Page">
+	<meta name="keywords" content="Fly to the Limit, Queenstown, New Zealand, Photo Gallery, Flying">
+	<meta name="author" content="Michael Szeto">	
+
+	<link rel="stylesheet" type="text/css" href="../css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="icon" type="image/png" href="../img/favicon.ico">
+
+
+</head>
+<body>
+
+	<header>
+		<div class="nav">
+			<div class="col_4">
+				<h1 id="home"><a href="../index.html"><b>Fly to the Limit</b></a></h1>
+			</div>
+
+			<div class="col_8">
+				<ul class="right_nav">				
+					<li><a href="../html/tours.html">Tours</a></li>
+					<li><a href="../html/gallery.html">Gallery</a></li> 
+					<li><a href="../html/booking.html">Book a flight</a></li> 
+					<li><a href="../html/prices.html">Pricing</a></li>  
+					<li><a href="../html/about.html">About</a></li>
+					<li><a href="../html/contact.html">Contact</a></li>
+				</ul>
+
+			</div>  
+		</div>
+	</header>
+	<div class="top">
+		
+	</div>
+	<div class="wrapper pad_bottom cf">
+
+		<div class="col_12">
+
+			<h3 class="pad_top">Photo gallery</h3>
+		</div>
+
+		<div class="popup-gallery">
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery1-large.jpg"><img src="../img/gallery1.jpg" alt="Queenstown"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery2-large.jpg"><img src="../img/gallery2.jpg" alt="Queenstown Lake"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery3-large.jpg"><img src="../img/gallery3.jpg" alt="Wellington Te Aro"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery4-large.jpg"><img src="../img/gallery4.jpg" alt="Wellington Sky"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery5-large.jpg"><img src="../img/gallery5.jpg" alt="Nikon D810 Airplane"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery6-large.jpg"><img src="../img/gallery6.jpg" alt="Australia Helicoptors"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">		
+					<a href="../img/gallery7-large.jpg"><img src="../img/gallery7.jpg" alt="Queenstown Valley"></a>
+				</div>
+			</div>
+
+			<div class="gallery-hover">
+				<div class="col_6 background_orange">
+					<a href="../img/gallery8-large.jpg"><img src="../img/gallery8.jpg" alt="Queenstown Lake"></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div id="container">
+			<div class="wrapper">
+				<div id="copyright" class="col_6">&copy; Copyright 2015. All rights reserved<br> to Fly to the Limit inc.
+				</div>
+				<div class="col_6"> 				
+				<div class="back_to_top_button">Back to top</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- This script tag is to help the lightbox gallery plugin function -->	
+<!-- and will allow it to zoom in and out to its larger size. -->	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+	<script>
+
+		$(document).ready(function() {
+			$('.popup-gallery').magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				tLoading: 'Loading image #%curr%...',
+				mainClass: 'mfp-img-mobile',
+				gallery: {
+					enabled: true,
+					navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('Image');
+			}
+		}
+	});
+		});
+	</script>
+<!-- This script tag is to help the lightbox gallery plugin function -->	
+<!-- and will allow it to zoom in and out to its larger size. -->	
+
+	<script src="../javascript/jquery.magnific-popup.js"></script>
+	<script src="../javascript/jquery.magnific-popup.min.js"></script>
+	<script src="../javascript/back-to-top.js"></script>
+
+</body>
+</html>
